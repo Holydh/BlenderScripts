@@ -8,7 +8,8 @@ def get_original_name(name):
 
 ### Insert your destination folder here :
 destFolder = r'C:\Users\YourUserName\etc\etc'
-
+### Insert the texture prefix that will be set here :
+prefix = 'texture-'
 ### hash table instance to keep track of old path and new path of each textures. 
 ### Keys are old_path
 ### Values are new_path
@@ -38,7 +39,7 @@ for material in bpy.data.materials:
         filename_ext = os.path.splitext(old_path)
         ### Make the number to increment into string
         num = str(x)
-        new_filename = 'mgs-'+num+filename_ext[1]
+        new_filename = prefix+num+filename_ext[1]
         new_path = destFolder+'\\'+new_filename
         temp_path = filepath_split[0]+'\\'+new_filename
 
