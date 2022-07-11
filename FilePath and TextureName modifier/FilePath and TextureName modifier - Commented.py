@@ -10,6 +10,7 @@ def get_original_name(name):
 destFolder = r'C:\Users\YourUserName\etc\etc'
 ### Insert the texture prefix that will be set here :
 prefix = 'texture-'
+
 ### hash table instance to keep track of old path and new path of each textures. 
 ### Keys are old_path
 ### Values are new_path
