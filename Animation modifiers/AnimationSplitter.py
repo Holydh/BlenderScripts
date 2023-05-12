@@ -1,5 +1,8 @@
-# Credits to batFINGER's solution : https://blender.stackexchange.com/questions/214866/copying-specific-frames-from-one-action-to-another-python
-# Thanks !
+# Credits to batFINGER's solution for the keyframes copy function : https://blender.stackexchange.com/questions/214866/copying-specific-frames-from-one-action-to-another-python
+
+# This scripts goes through all the frames of an animation and checks all the Bones and/or object's position and/or rotation
+# and compare the previous and current frame. If both frames are more different than a certain threshold, it copies all the keyframes
+# since last cut in a new action. RMSE functions are used to check the level of differences between two frames.
 
 # How to use :
 # Backup your blender file
@@ -7,7 +10,8 @@
 # Be sure that the action you want to cut is assigned to the object (in the action editor)
 # Open the script in the text editor and launch it
 # Check the results in the action editor
-# You can tweak thresholdBonesRotation. 0.25 has given me the best results. Decreasing it will make the scripts cut for lighter differences between frames, increasing it will make it less strict
+# You can tweak thresholdBonesRotation. 0.25 has given me the best results. Decreasing it will make the scripts cut for 
+# lighter differences between frames, increasing it will make it less strict
 # You can also uncomment these two :
 # #thresholdObjPosition = 0.5
 # #thresholdObjRotation = 0.4
