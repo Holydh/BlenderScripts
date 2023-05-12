@@ -1,3 +1,6 @@
+# Credits to batFINGER's solution : https://blender.stackexchange.com/questions/214866/copying-specific-frames-from-one-action-to-another-python
+# Thanks !
+
 # How to use :
 # Backup your blender file
 # Select the object that has the targetted animation you want to cut
