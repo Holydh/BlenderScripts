@@ -14,4 +14,4 @@ Link BSDF Principled Nodes to Material Output Surface on all materials
 
 ### Animation modifiers
 
-Animation slicer (Credits to BatFINGER's comment for the base of my script : https://blender.stackexchange.com/questions/214866/copying-specific-frames-from-one-action-to-another-python)
+Animation slicer (Credits to BatFINGER's comment for the keyframes copy function : https://blender.stackexchange.com/questions/214866/copying-specific-frames-from-one-action-to-another-python)
