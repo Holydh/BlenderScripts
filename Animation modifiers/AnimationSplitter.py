@@ -1,3 +1,17 @@
+# How to use :
+# Backup your blender file
+# Select the object that has the targetted animation you want to cut
+# Be sure that the action you want to cut is assigned to the object (in the action editor)
+# Open the script in the text editor and launch it
+# Check the results in the action editor
+# You can tweak thresholdBonesRotation. 0.25 has given me the best results. Decreasing it will make the scripts cut for lighter differences between frames, increasing it will make it less strict
+# You can also uncomment these two :
+# #thresholdObjPosition = 0.5
+# #thresholdObjRotation = 0.4
+# And add them in the if frame_rmse > threshold statement
+# This will allow to check the object position and rotation in itself instead of its bones
+# Use the right frame_rmse variable for the right threshold if you do that.
+
 import bpy
 from mathutils import Vector
 import math
