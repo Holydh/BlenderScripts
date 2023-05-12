@@ -4,10 +4,12 @@
 # and compare the previous and current frame. If both frames are more different than a certain threshold, it copies all the keyframes
 # since last cut in a new action. RMSE functions are used to check the level of differences between two frames.
 
+
 # How to use :
 # Backup your blender file
 # Select the object that has the targetted animation you want to cut
 # Be sure that the action you want to cut is assigned to the object (in the action editor)
+# If possible, set all the keyframes interpolation to constant for best results. You can reapply other interpolation mode after.
 # Open the script in the text editor and launch it
 # Check the results in the action editor
 # You can tweak thresholdBonesRotation. 0.25 has given me the best results. Decreasing it will make the scripts cut for 
