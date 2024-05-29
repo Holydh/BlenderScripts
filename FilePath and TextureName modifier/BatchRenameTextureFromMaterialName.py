@@ -1,3 +1,5 @@
+# Works for Blender 4.1
+
 import bpy
 import os
 
