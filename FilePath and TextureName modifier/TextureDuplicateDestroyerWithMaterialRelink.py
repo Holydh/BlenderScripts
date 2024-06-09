@@ -9,14 +9,15 @@
 # So here's the required steps summarized :
 # 1 - BatchRenameBlenderImageNameFromMaterialName.py (run the script from the blender text editor)
 # 2 - RenamePackedTextureFilePathFromBlenderImageName.py (In the blender python console)
-# 3 - Unpack textures in current directory
-# 4 - Run this script below
+# 3 - Unpack textures (choose write to current directory in blender)
+# 4 - Run DupeGuru in the unpacked textures directory
+# 5 - Run this script below
 
 # /!\ Depending on your OS language, you'll need to change the read_csv function with the proper csv rows. Open your csv and look up the first line.
 # This is how the csv rows looks in french :
 # Group ID,Nom de fichier,Dossier,Taille (KB),Dimensions,Match %
 
-# Find these following lines (lines 37, 38, 39) in the script and replace the csv rows with yours. eg : 'Nom de fichier' should be something like 'folder name' etc.
+# Find these following lines (lines 38, 39, 40) in the script and replace the csv rows with yours. eg : 'Nom de fichier' should be something like 'folder name' etc.
 #            group_id = row['Group ID']
 #            file_name = row['Nom de fichier']
 #            folder = row['Dossier']
