@@ -3,7 +3,7 @@
 # Use DupeGuru to generate the duplicate report .csv file : https://github.com/arsenetar/dupeguru/
 # DupeGuru scans folders for duplicate files by analysing and comparing the content of each.
 
-# This script will then use this csv file to relink the materials using the duplicates to the original then will delete the .png files from the folder. 
+# This script will then use this csv file to relink the materials using the duplicates to the original then will delete the .png files from the unpacked textures folder. 
 # It need to be used with the textures unpacked and renamed, textures must have the same name has their materials (but still with the .png extension of course)
 
 # So here's the required steps summarized :
