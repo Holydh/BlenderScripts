@@ -6,7 +6,7 @@
 # This script will then use this csv file to relink the materials using the duplicates to the original then will delete the .png files from the unpacked textures folder. 
 # It need to be used with the textures unpacked and renamed, textures must have the same name has their materials (but still with the .png extension of course)
 
-# So here's the required steps summarized :
+# Here's the required steps (the other required scripts can be found here https://github.com/Holydh/BlenderScripts/tree/main/FilePath%20and%20TextureName%20modifier) :
 # 1 - BatchRenameBlenderImageNameFromMaterialName.py (run the script from the blender text editor)
 # 2 - RenamePackedTextureFilePathFromBlenderImageName.py (In the blender python console)
 # 3 - Unpack textures (choose write to current directory in blender)
